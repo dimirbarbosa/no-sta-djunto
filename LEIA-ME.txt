@@ -1,0 +1,6 @@
+XAMPP: copie a pasta "no-sta-djunto" para C:\xampp\htdocs\ , inicie o Apache e abra http://localhost/no-sta-djunto/
+Docker (na pasta do projeto):
+  docker build -t no-sta-djunto .
+  docker run -d -p 8080:80 --name nsd no-sta-djunto
+  Abrir http://localhost:8080
+Ou: docker compose up -d --build
